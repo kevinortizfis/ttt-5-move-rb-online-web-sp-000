@@ -11,7 +11,6 @@ end
 def converted_input
   puts input_to_index.to_i
 end
-board = [" ", " ", " "]
 def move(board,converted_input,character= "X")
   puts board[converted_input] = character
 end
