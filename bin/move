@@ -5,6 +5,7 @@ require_relative '../lib/move.rb'
 puts "Welcome to Tic Tac Toe!"
 user_input = gets.strip
 board = [" ", " ", " "," ", " ", " "," ", " ", " "]
+converted_input
 move = board
 if move == 1 or move == 2 or move == 3 or move == 4 or move == 5 or move == 6 or move == 7 or move == 8 or move == 9
   puts display_board(move)
