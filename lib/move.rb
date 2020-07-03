@@ -9,8 +9,3 @@ def input_to_index(user_input)
   puts user_input.to_i
 end
 input_to_index
-def converted_input
-  input_to_index.to_i
-end
-converted_input
-move = converted_input
