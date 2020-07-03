@@ -6,7 +6,7 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 def input_to_index(input)
-  puts input.to_i
+  puts "#{input}"
 end
 def move(board,input,character=x)
   array[index] = value
