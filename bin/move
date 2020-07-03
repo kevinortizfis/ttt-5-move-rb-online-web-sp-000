@@ -5,10 +5,10 @@ require_relative '../lib/move.rb'
 puts "Welcome to Tic Tac Toe!
 Where would you like to go?"
 user_input = gets.strip
-def input_to_index(input)
+def input_to_index(user_input)
   input.to_i
 end
-if input == 1 or input == 2
+if user_input == 1 or user_input == 2
   puts display_board(move)
   else
     puts "Invalid"
