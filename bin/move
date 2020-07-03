@@ -13,4 +13,3 @@ end
 if player = "O"
   puts display_board(number)
 end
-
