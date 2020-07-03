@@ -12,4 +12,3 @@ if move == 2 or move == 1 or move == 3 or move == 4 or move == 5 or move == 6 or
   else
     puts "Invalid"
   end
-end
