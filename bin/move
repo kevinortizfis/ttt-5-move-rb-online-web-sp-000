@@ -2,10 +2,8 @@
 
 require_relative '../lib/move.rb'
 
-print "Welcome to Tic Tac Toe!"
-board = [" ", " ", " "," ", " ", " "," ", " ", " "]
-puts board
-puts "Where would you like to go?"
+print "Welcome to Tic Tac Toe!
+Where would you like to go?"
 input = gets.strip
 index = input_to_index(input)
 move(board,index,"X")
