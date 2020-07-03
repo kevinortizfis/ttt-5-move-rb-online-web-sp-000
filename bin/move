@@ -9,9 +9,3 @@ input = gets.strip
 index = input_to_index(input)
 move(board,index,"X")
 display_board(move)
-#  def converted_input
-#    user_input.to_i
-#  end
-#  def input_to_index(converted_input)
-#    converted_input.to_i
-#  end
