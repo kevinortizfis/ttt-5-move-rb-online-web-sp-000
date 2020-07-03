@@ -11,6 +11,6 @@ end
 def converted_input
   puts input_to_index.to_i
 end
-def move(board,converted_input,character = "O")
+def move(board,converted_input,character= "0")
   puts array[index] = value
 end
