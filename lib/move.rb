@@ -9,5 +9,5 @@ def input_to_index(input)
   puts input.to_i
 end
 def move(display_board,input,character==x)
-  array[index] = value
+  puts array[index] = value
 end
