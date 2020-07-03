@@ -4,11 +4,3 @@ def display_board(board)
   puts " #{board[3]} | #{board[4]} | #{board[5]} "
   puts "-----------"
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
-end
-def input_to_index(user_input)
-  puts user_input.to_i
-end
-def converted_input
-  input_to_index.to_i
-end
-move = converted_input
