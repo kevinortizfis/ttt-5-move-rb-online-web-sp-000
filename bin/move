@@ -5,7 +5,7 @@ require_relative '../lib/move.rb'
 puts "Welcome to Tic Tac Toe!
 Where would you like to go?"
 input = gets.strip
-def input_to_index(x)
+def input_to_index(user_input)
   x.to_i
 end
 move = input_to_index(input)
