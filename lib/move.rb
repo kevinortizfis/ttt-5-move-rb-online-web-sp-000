@@ -8,6 +8,6 @@ end
 def input_to_index(input)
   puts input.to_i
 end
-def move(display_board,input,character=x)
+def move(board,input,character=x)
   array[board] = value
 end
