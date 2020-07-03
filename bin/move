@@ -9,6 +9,7 @@ def converted_input
   user_input.to_i
 end
 def input_to_index(converted_input)
+  converted_input.to_i
 end
 move = input_to_index(user_input)
 if move == 1 or move == 2
