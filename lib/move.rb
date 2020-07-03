@@ -11,3 +11,4 @@ end
 def converted_input
   input_to_index(user_input).to_i
 end
+move = converted_input
