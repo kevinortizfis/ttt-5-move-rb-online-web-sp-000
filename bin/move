@@ -7,6 +7,7 @@ Where would you like to go?"
 user_input = gets.strip
 def input_to_index(x)
   x.to_i
+end
 converted_input = input_to_index(user_input)
 if move == 1 or move == 2
   puts display_board(move)
