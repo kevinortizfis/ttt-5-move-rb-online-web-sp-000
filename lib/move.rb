@@ -14,4 +14,3 @@ end
 def move(board,converted_input,character= "X")
   puts board[converted_input] = character
 end
-move(board, 0, "X")
