@@ -7,13 +7,13 @@ Where would you like to go?"
 number = gets.strip
 puts "X or O?"
 player = gets.strip
-if player = "X"
+  if player = "X"
   puts display_board(number)
   puts "X"
-else puts nil
-end
-if player = "O"
+  else puts nil
+  end
+  if player = "O"
   puts display_board(number)
   puts "O"
-else puts nil
-end
+  else puts nil
+  end
