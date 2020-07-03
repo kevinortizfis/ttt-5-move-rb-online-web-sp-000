@@ -9,7 +9,7 @@ def input_to_index(input)
   puts input
 end
 def converted_input
-  input_to_index.to_i
+  input_to_index.to_i + 1
 end
 def move(board,input,character=x)
   array[index] = value
