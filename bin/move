@@ -5,4 +5,12 @@ require_relative '../lib/move.rb'
 puts "Welcome to Tic Tac Toe!
 Where would you like to go?"
 number = gets.strip
-puts display_board(number)
+puts "X or O?"
+player = gets.strip
+if player = "X"
+  puts display_board(number)
+end
+if player = "O"
+  puts display_board(number)
+end
+
