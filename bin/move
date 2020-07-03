@@ -9,7 +9,9 @@ puts "X or O?"
 player = gets.strip
 if player = "X"
   puts display_board(number)
+  puts "X"
 end
 if player = "O"
   puts display_board(number)
+  puts "O"
 end
