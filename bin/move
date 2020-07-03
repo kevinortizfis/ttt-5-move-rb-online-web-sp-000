@@ -10,8 +10,10 @@ player = gets.strip
 if player = "X"
   puts display_board(number)
   puts "X"
+else puts nil
 end
 if player = "O"
   puts display_board(number)
   puts "O"
+else puts nil
 end
