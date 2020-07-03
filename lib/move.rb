@@ -12,4 +12,5 @@ input_to_index
 def converted_input
   input_to_index.to_i
 end
+converted_input
 move = converted_input
