@@ -6,7 +6,7 @@ puts "Welcome to Tic Tac Toe!
 Where would you like to go?"
 number = gets.strip
 if (number == 1 or 2
-  puts display_board(number)
-  else
+  puts display_board(number))
+  (else
     puts "Invalid")
   end
