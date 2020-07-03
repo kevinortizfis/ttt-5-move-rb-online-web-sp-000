@@ -7,5 +7,5 @@ Where would you like to go?"
 number = gets.strip
 if number == 1 or 2
   puts display_board(number)
-if else puts "Invalid"
+  elseif puts "Invalid"
 end
