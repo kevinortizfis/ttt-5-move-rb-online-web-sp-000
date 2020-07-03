@@ -14,3 +14,4 @@ if move == 1 or move == 2
   else
     puts "Invalid"
   end
+end
